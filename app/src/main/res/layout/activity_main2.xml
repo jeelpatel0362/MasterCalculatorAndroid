@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteBg"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <!-- Title-->
+
+    <FrameLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:ignore="UselessParent">
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <ImageButton
+
+                android:id="@+id/BackButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/arrow_back"
+
+                />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_gravity="center"
+                android:text="@string/calculation_utilities"
+                android:textColor="@color/black"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_margin="18dp">
+
+        <!--mutual Fund-->
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/squre_button"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            >
+            <ImageView
+                android:id="@+id/Mutualfundimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/mutualfund"/>
+
+            <TextView
+                android:id="@+id/mutualFund"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mutual_fund"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/knowmore1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    />
+                <ImageView
+                    android:id="@+id/arrow1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:src="@drawable/arrow_forward"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Interest -->
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/squre_button"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            >
+            <ImageView
+                android:id="@+id/interestimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/interest"/>
+
+            <TextView
+                android:id="@+id/interest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/knowmore2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    />
+                <ImageView
+                    android:id="@+id/arrow2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:src="@drawable/arrow_forward"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_margin="18dp">
+
+        <!-- Discount -->
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/squre_button"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            >
+            <ImageView
+                android:id="@+id/Discountimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/discount"/>
+
+            <TextView
+                android:id="@+id/Discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/discount"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/knowmore3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    />
+                <ImageView
+                    android:id="@+id/arrow3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:src="@drawable/arrow_forward"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- EMI -->
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/squre_button"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            >
+            <ImageView
+                android:id="@+id/EMIimg"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/emi"/>
+
+            <TextView
+                android:id="@+id/EMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emi"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/knowmore4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    />
+                <ImageView
+                    android:id="@+id/arrow4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:src="@drawable/arrow_forward"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_margin="18dp">
+
+        <!-- School Result -->
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/squre_button"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            >
+            <ImageView
+                android:id="@+id/school"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/school"/>
+
+            <TextView
+                android:id="@+id/SchoolResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/school_result"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/knowmore5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    />
+                <ImageView
+                    android:id="@+id/arrow5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:src="@drawable/arrow_forward"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Square or Hour -->
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/squre_button"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_marginEnd="20dp"
+            >
+            <ImageView
+                android:id="@+id/squareorhourimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/x2"/>
+
+            <TextView
+                android:id="@+id/SquareorHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/square_or_hour"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/knowmore6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    />
+                <ImageView
+                    android:id="@+id/arrow6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:src="@drawable/arrow_forward"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
