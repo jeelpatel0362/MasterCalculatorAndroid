@@ -32,7 +32,7 @@
 
             <ImageButton
 
-                android:id="@+id/BackButton6"
+                android:id="@+id/BackButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -42,12 +42,12 @@
                 />
 
             <TextView
-                android:id="@+id/title7"
+                android:id="@+id/title8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textAlignment="center"
-                android:text="@string/school_result"
+                android:text="@string/square_or_hour"
                 android:textColor="@color/black"
                 android:textSize="23sp" />
 
@@ -55,7 +55,7 @@
 
     </FrameLayout>
 
-    <!-- Total Marks -->
+    <!-- Input Number -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,28 +66,28 @@
         android:layout_marginBottom="12dp">
 
         <TextView
-            android:id="@+id/marks"
+            android:id="@+id/number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/total_marks"
+            android:text="@string/input_number"
             android:textSize="18sp"
             android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/totalmarks"
+            android:id="@+id/inputNumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/total_marks"
+            android:hint="@string/number"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
     </LinearLayout>
 
-    <!-- Your Total Marks -->
+    <!-- Add Square or hour -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -97,21 +97,21 @@
         android:layout_marginBottom="12dp">
 
         <TextView
-            android:id="@+id/yourMarks"
+            android:id="@+id/squareOrHour"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/your_total_marks"
+            android:text="@string/add_square_or_hour"
             android:textSize="18sp"
             android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/yourTotalMarks"
+            android:id="@+id/addSquareOrHour"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/your_marks"
+            android:hint="@string/square_or_hour2"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
@@ -143,21 +143,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="95dp"
+            android:layout_marginStart="140dp"
             android:layout_gravity="center"
             >
 
             <TextView
-                android:id="@+id/percentage"
+                android:id="@+id/result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/your_percentage"
+                android:text="@string/result"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 />
             <TextView
-                android:id="@+id/yourPercentage"
+                android:id="@+id/SquareResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dash"
