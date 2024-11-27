@@ -20,7 +20,7 @@
         tools:ignore="UselessParent">
 
         <View
-            android:layout_width="370dp"
+            android:layout_width="350dp"
             android:layout_height="60dp"/>
 
         <LinearLayout
@@ -163,7 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="10dp"
+        android:layout_gravity="center"
         android:layout_marginTop="35dp"
         >
 
@@ -172,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="140dp"
+            android:layout_marginStart="135dp"
             android:layout_gravity="center"
             >
 
@@ -181,7 +181,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/invested"
-                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
                 />
             <TextView
                 android:id="@+id/totalInvest2"

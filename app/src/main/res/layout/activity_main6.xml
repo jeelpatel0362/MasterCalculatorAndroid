@@ -20,7 +20,7 @@
         tools:ignore="UselessParent">
 
         <View
-            android:layout_width="370dp"
+            android:layout_width="350dp"
             android:layout_height="60dp"/>
 
         <LinearLayout
@@ -72,7 +72,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/loan_amount"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textColor="@color/black" />
 
         <EditText
@@ -103,7 +103,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/interest_rate"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textColor="@color/black" />
 
         <EditText
@@ -133,17 +133,17 @@
 
             android:gravity="center_vertical"
             android:text="@string/time_period_in"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/emiTimePeriods"
-            android:layout_width="150dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:hint="@string/_5"
             android:textColor="@color/grey"
             android:textAlignment="center"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
@@ -153,9 +153,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:text="@string/year"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textColor="@color/black" />
     </LinearLayout>
     <Button
@@ -192,6 +192,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/total_amount"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 />
             <TextView
@@ -221,6 +222,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/total_interest"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 />
             <TextView
@@ -243,6 +245,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="3"
         android:layout_gravity="center"
         >
 
@@ -251,6 +254,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/total_payable_amount"
+            android:textColor="@color/black"
             android:textSize="20sp"
             />
         <TextView
