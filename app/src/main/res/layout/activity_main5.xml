@@ -66,28 +66,28 @@
         android:layout_marginBottom="12dp">
 
         <TextView
-            android:id="@+id/principalAmount"
+            android:id="@+id/price"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/price"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/Amount"
+            android:id="@+id/Amount2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/amount"
+            android:hint="@string/enter_your_price"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
     </LinearLayout>
 
-    <!-- Interest Rate in (%) -->
+    <!-- Discount -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -97,56 +97,28 @@
         android:layout_marginBottom="12dp">
 
         <TextView
-            android:id="@+id/interestRate"
+            android:id="@+id/discount"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/interest_rate_in"
+            android:text="@string/discount"
             android:textSize="18sp"
             android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/rate"
+            android:id="@+id/priceDiscount"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/interest"
+            android:hint="@string/enter_your_discount"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
     </LinearLayout>
 
-    <!-- Time Period -->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <TextView
-            android:id="@+id/time"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            android:text="@string/time_period_in_yr"
-            android:textSize="18sp"
-            android:textColor="@color/black" />
-
-        <EditText
-            android:id="@+id/timePeriods"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="@string/_05"
-            android:textColor="@color/grey"
-            android:padding="10dp"
-            android:background="@drawable/round_border"
-            android:inputType="number" />
-    </LinearLayout>
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -159,41 +131,74 @@
         android:textSize="18sp"
         />
 
+    <!--After Calculation -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:padding="10dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
         >
 
-        <!-- Invested -->
+        <!-- Price After Discount -->
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginStart="140dp"
+            android:orientation="horizontal"
             android:layout_gravity="center"
             >
 
             <TextView
-                android:id="@+id/invested2"
+                android:id="@+id/afterDiscount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/invested"
-                android:textSize="20sp"
+                android:text="@string/price_after_discount"
+                android:textColor="@color/black"
+                android:textSize="18sp"
                 />
             <TextView
-                android:id="@+id/totalInvest2"
+                android:id="@+id/priceAfterDiscount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/dash"
+                android:layout_marginStart="2dp"
+                android:text="@string/dash2"
                 android:textAlignment="center"
-                android:textSize="24sp"
-
+                android:textSize="20sp"
                 />
 
         </LinearLayout>
+    <!-- saved Amount -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/savedAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saved_price"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/savedPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="@string/dash2"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
     </LinearLayout>
 </LinearLayout>
 

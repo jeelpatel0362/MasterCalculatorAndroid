@@ -35,4 +35,9 @@
     <string name="_05">05</string>
     <string name="discount_calculator">Discount Calculator</string>
     <string name="price">Price</string>
+    <string name="enter_your_price">Enter Your Price</string>
+    <string name="enter_your_discount">Enter your Discount</string>
+    <string name="dash2">---</string>
+    <string name="price_after_discount">Price after Discount :</string>
+    <string name="saved_price">Saved Price : </string>
 </resources>
