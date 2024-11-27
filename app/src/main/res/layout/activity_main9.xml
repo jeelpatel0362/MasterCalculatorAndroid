@@ -52,11 +52,83 @@
                 android:textSize="30sp" />
 
         </LinearLayout>
-
-
-
-
     </FrameLayout>
+
+    <!-- Calc Icon -->
+    <ImageView
+        android:id="@+id/App_icon"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:background="@drawable/calc_icon"
+        android:layout_marginTop="48dp"
+        android:layout_margin="48dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_not_found" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="start">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/About"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+             />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <!-- Share-->
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/start_button"
+            android:text="@string/share"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/white" />
+
+
+        <!-- Rate us-->
+        <Button
+            android:id="@+id/rateus"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/start_button"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/rate_us"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
 
 
 
