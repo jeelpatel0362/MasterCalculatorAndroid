@@ -48,4 +48,8 @@
     <string name="total_amount">Total Amount</string>
     <string name="total_interest">Total Interest</string>
     <string name="total_payable_amount">Total Payable Amount</string>
+    <string name="your_percentage">Your Percentage</string>
+    <string name="total_marks">Total Marks</string>
+    <string name="your_total_marks">Your Total Marks</string>
+    <string name="your_marks">Your Marks</string>
 </resources>
