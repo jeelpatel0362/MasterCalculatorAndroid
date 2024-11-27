@@ -40,4 +40,12 @@
     <string name="dash2">---</string>
     <string name="price_after_discount">Price after Discount :</string>
     <string name="saved_price">Saved Price : </string>
+    <string name="emi_calculator">EMI Calculator</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="interest_rate">Interest Rate (%)</string>
+    <string name="time_period_in">Time Period in</string>
+    <string name="year">Year</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="total_interest">Total Interest</string>
+    <string name="total_payable_amount">Total Payable Amount</string>
 </resources>
