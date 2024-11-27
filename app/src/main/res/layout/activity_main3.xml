@@ -72,7 +72,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/monthly_investment"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textColor="@color/black" />
 
         <EditText
@@ -103,7 +103,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/expected_return_in"
-            android:textSize="17sp"
+            android:textSize="16sp"
             android:textColor="@color/black" />
 
         <EditText
@@ -133,7 +133,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/time_period_in_yr"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textColor="@color/black" />
 
         <EditText
