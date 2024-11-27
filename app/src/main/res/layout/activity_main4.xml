@@ -32,7 +32,7 @@
 
             <ImageButton
 
-                android:id="@+id/BackButton2"
+                android:id="@+id/BackButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -42,12 +42,12 @@
                 />
 
             <TextView
-                android:id="@+id/title3"
+                android:id="@+id/title4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="50dp"
-                android:text="@string/mutual_fund_calculator"
+                android:text="@string/interest_calculator"
                 android:textColor="@color/black"
                 android:textSize="23sp" />
 
@@ -55,7 +55,7 @@
 
     </FrameLayout>
 
-    <!-- Monthly Investment -->
+    <!-- Principal Amount -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,28 +66,28 @@
         android:layout_marginBottom="12dp">
 
         <TextView
-            android:id="@+id/monthlyInvest"
+            android:id="@+id/principalAmount"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/monthly_investment"
+            android:text="@string/principal_amount"
             android:textSize="18sp"
             android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/invest"
+            android:id="@+id/Amount"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/_500"
+            android:hint="@string/amount"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
     </LinearLayout>
 
-    <!-- Expected Return -->
+    <!-- Interest Rate in (%) -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -97,21 +97,21 @@
         android:layout_marginBottom="12dp">
 
         <TextView
-            android:id="@+id/expectedReturn"
+            android:id="@+id/interestRate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/expected_return_in"
-            android:textSize="17sp"
+            android:text="@string/interest_rate_in"
+            android:textSize="18sp"
             android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/Return"
+            android:id="@+id/rate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/_20"
+            android:hint="@string/interest"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
@@ -141,7 +141,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/_5"
+            android:hint="@string/_05"
             android:textColor="@color/grey"
             android:padding="10dp"
             android:background="@drawable/round_border"
@@ -172,76 +172,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="140dp"
             android:layout_gravity="center"
             >
 
             <TextView
-                android:id="@+id/invested1"
+                android:id="@+id/invested2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/invested"
                 android:textSize="20sp"
                 />
             <TextView
-                android:id="@+id/totalInvest1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/dash"
-                android:textAlignment="center"
-                android:textSize="24sp"
-
-                />
-
-        </LinearLayout>
-
-        <!-- estmited returned-->
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginStart="20dp"
-            android:layout_gravity="center"
-            >
-
-            <TextView
-                android:id="@+id/estimated"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/est_return"
-                android:textSize="20sp"
-                />
-            <TextView
-                android:id="@+id/estreturn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/dash"
-                android:textAlignment="center"
-                android:textSize="24sp"
-
-                />
-
-        </LinearLayout>
-
-        <!-- Total Value-->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginStart="20dp"
-            android:layout_gravity="center"
-            >
-
-            <TextView
-                android:id="@+id/value"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/total_value"
-                android:textSize="20sp"
-                />
-            <TextView
-                android:id="@+id/totalvalue"
+                android:id="@+id/totalInvest2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dash"
@@ -252,5 +195,5 @@
 
         </LinearLayout>
     </LinearLayout>
-
 </LinearLayout>
+

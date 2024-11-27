@@ -28,4 +28,11 @@
     <string name="total_value">Total Value</string>
     <string name="est_return">Est. Return</string>
     <string name="dash">_ _ _</string>
+    <string name="interest_calculator">Interest Calculator</string>
+    <string name="principal_amount">Principal Amount</string>
+    <string name="amount">Amount</string>
+    <string name="interest_rate_in">Interest Rate in (%)</string>
+    <string name="_05">05</string>
+    <string name="discount_calculator">Discount Calculator</string>
+    <string name="price">Price</string>
 </resources>
