@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@color/whiteBg"
     android:padding="18dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity4">
 
     <!-- Title-->
 
@@ -35,13 +35,12 @@
                 android:id="@+id/BackButton3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="8dp"
                 android:background="@drawable/round_border"
-                android:layout_gravity="start"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/arrow_back"
 
                 />
-
             <TextView
                 android:id="@+id/title4"
                 android:layout_width="match_parent"
@@ -82,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/amount"
-            android:textColor="@color/grey"
+            android:textColor="@color/black"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
@@ -113,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/interest"
-            android:textColor="@color/grey"
+            android:textColor="@color/black"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
@@ -143,7 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/_05"
-            android:textColor="@color/grey"
+            android:textColor="@color/black"
             android:padding="10dp"
             android:background="@drawable/round_border"
             android:inputType="number" />
@@ -173,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="135dp"
+            android:layout_marginStart="155dp"
             android:layout_gravity="center"
             >
 
@@ -190,6 +189,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dash"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="24sp"
 
@@ -198,4 +198,3 @@
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
-

@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/turquoise"
-    android:padding="18dp"
     tools:context=".MainActivity">
 
 
@@ -111,8 +110,8 @@
 
     <LinearLayout
 
-        android:layout_width="370dp"
-        android:layout_height="55dp"
+        android:layout_width="365dp"
+        android:layout_height="53dp"
         android:layout_gravity="center"
         android:orientation="horizontal"
         android:layout_marginTop="30dp">

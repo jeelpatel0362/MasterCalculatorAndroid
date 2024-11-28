@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@color/turquoise"
     android:padding="18dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity9">
 
 
     <FrameLayout
@@ -34,8 +34,8 @@
                 android:id="@+id/BackButton8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="8dp"
                 android:background="@drawable/white_boarder"
-                android:layout_gravity="start"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/white_back_arrow"
 
@@ -81,7 +81,7 @@
             android:text="@string/About"
             android:textColor="@color/white"
             android:textSize="18sp"
-             />
+            />
 
 
     </LinearLayout>
