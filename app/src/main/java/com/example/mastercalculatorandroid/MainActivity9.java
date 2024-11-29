@@ -1,8 +1,10 @@
 package com.example.mastercalculatorandroid;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -34,5 +36,42 @@ public class MainActivity9 extends AppCompatActivity {
             }
         });
 
+        // For Share
+        Button share = findViewById(R.id.share2);
+
+        share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                shareApp();
+            }
+        });
+
+        // For Rate us
+
+        Button rateUs = findViewById(R.id.rateus2);
+
+        rateUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                rateUs();
+            }
+        });
+
+    }
+    private void shareApp() {
+        String shareMessage = "Check out this amazing app: https://play.google.com/store/apps/details?id=" + getPackageName();
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+        startActivity(Intent.createChooser(intent, "Share via"));
+    }
+
+    private void rateUs() {
+        String appPackageName = getPackageName();
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+        } catch (Exception e) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+        }
     }
 }
