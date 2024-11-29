@@ -16,11 +16,11 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         tools:ignore="UselessParent">
 
         <View
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="60dp"/>
 
         <LinearLayout
@@ -31,17 +31,14 @@
             tools:ignore="UselessParent">
 
             <ImageButton
-
-                android:id="@+id/BackButton2"
+                android:id="@+id/BackButton5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
                 android:background="@drawable/round_border"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/arrow_back"
-
                 />
-
             <TextView
                 android:id="@+id/title6"
                 android:layout_width="match_parent"

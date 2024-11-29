@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="18dp"
     android:background="@color/whiteBg"
     tools:context=".MainActivity5">
 
@@ -15,11 +16,11 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         tools:ignore="UselessParent">
 
         <View
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="60dp"/>
 
         <LinearLayout
@@ -38,7 +39,6 @@
                 android:background="@drawable/round_border"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/arrow_back"
-
                 />
 
             <TextView

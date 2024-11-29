@@ -16,6 +16,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         tools:ignore="UselessParent">
 
         <View
@@ -34,7 +35,7 @@
                 android:id="@+id/BackButton1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="8dp"
                 android:background="@drawable/round_border"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/arrow_back"
@@ -62,14 +63,15 @@
         android:layout_gravity="center"
         android:layout_marginStart="10dp"
         android:orientation="horizontal"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="35dp"
         >
 
         <!--mutual Fund-->
 
         <LinearLayout
+            android:id="@+id/mutualFund"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="142dp"
             android:orientation="vertical"
             android:background="@drawable/squre_button"
             android:gravity="center_vertical"
@@ -77,13 +79,13 @@
             android:layout_marginEnd="20dp"
             >
             <ImageView
-                android:id="@+id/Mutualfundimg"
+                android:id="@+id/mutualFundimg"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/mutualfund"/>
 
             <TextView
-                android:id="@+id/mutualFund"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mutual_fund"
@@ -126,8 +128,9 @@
         <!-- Interest -->
 
         <LinearLayout
+            android:id="@+id/interest"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="142dp"
             android:orientation="vertical"
             android:background="@drawable/squre_button"
             android:gravity="center_vertical"
@@ -141,7 +144,6 @@
                 android:src="@drawable/interest"/>
 
             <TextView
-                android:id="@+id/interest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/interest"
@@ -198,8 +200,9 @@
         <!-- Discount -->
 
         <LinearLayout
+            android:id="@+id/Discount"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="142dp"
             android:orientation="vertical"
             android:background="@drawable/squre_button"
             android:gravity="center_vertical"
@@ -213,7 +216,7 @@
                 android:src="@drawable/discount"/>
 
             <TextView
-                android:id="@+id/Discount"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/discount"
@@ -256,8 +259,9 @@
         <!-- EMI -->
 
         <LinearLayout
+            android:id="@+id/EMI"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="142dp"
             android:orientation="vertical"
             android:background="@drawable/squre_button"
             android:gravity="center_vertical"
@@ -266,12 +270,11 @@
             >
             <ImageView
                 android:id="@+id/EMIimg"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:src="@drawable/emi"/>
 
             <TextView
-                android:id="@+id/EMI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/emi"
@@ -324,8 +327,9 @@
         <!-- School Result -->
 
         <LinearLayout
+            android:id="@+id/SchoolResult"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="142dp"
             android:orientation="vertical"
             android:background="@drawable/squre_button"
             android:gravity="center_vertical"
@@ -339,7 +343,7 @@
                 android:src="@drawable/school"/>
 
             <TextView
-                android:id="@+id/SchoolResult"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/school_result"
@@ -382,8 +386,9 @@
         <!-- Square or Hour -->
 
         <LinearLayout
+            android:id="@+id/SquareorHour"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="142dp"
             android:orientation="vertical"
             android:background="@drawable/squre_button"
             android:gravity="center_vertical"
@@ -397,7 +402,7 @@
                 android:src="@drawable/x2"/>
 
             <TextView
-                android:id="@+id/SquareorHour"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/square_or_hour"
