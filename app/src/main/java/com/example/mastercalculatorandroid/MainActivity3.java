@@ -98,7 +98,9 @@ public class MainActivity3 extends AppCompatActivity {
             estReturn.setText(String.format("%.2f", totalReturns));
             totalValues.setText(String.format("%.2f", totalValue));
         } catch (NumberFormatException e) {
-            e.printStackTrace();
+            invest.setError("Invalid input");
+            Return.setError("Invalid input");
+            timePeriods.setError("Invalid input");
         }
     }
 
