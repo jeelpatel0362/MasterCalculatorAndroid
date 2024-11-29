@@ -103,7 +103,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/discount"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/black" />
 
         <EditText
@@ -167,6 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:text="@string/dash2"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 />
@@ -195,6 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:text="@string/dash2"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 />
