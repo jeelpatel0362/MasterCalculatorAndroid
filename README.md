@@ -31,15 +31,15 @@ making it an indispensable tool for daily life.
 
 ### Pictures of application 
 
-<img src="https://github.com/user-attachments/assets/40e3a8e3-1bbb-49bb-abf0-3d53bd94738b" width="200"/>1
-<img src="https://github.com/user-attachments/assets/6b1317c8-d339-455e-b303-e217b16ad5d1" width="200"/>2
-<img src="https://github.com/user-attachments/assets/1f556a68-df46-40a7-9dbf-0b4b7833063c" width="200"/>3
-<img src="https://github.com/user-attachments/assets/aa2398b0-426d-4d78-93f7-e5bdf898395e" width="200"/>4
-<img src="https://github.com/user-attachments/assets/8ebecdf9-207d-4eef-be51-ec502bdac7f9" width="200"/>5
-<img src="https://github.com/user-attachments/assets/b077ed1a-685d-45b1-8ae3-17ad04eb799a" width="200"/>6
-<img src="https://github.com/user-attachments/assets/3d8e180b-2ff8-440f-974b-5d14a0b9f057" width="200"/>7
-<img src="https://github.com/user-attachments/assets/6b507f75-1996-4802-a29e-7802fb8cfd27" width="200"/>8
-<img src="https://github.com/user-attachments/assets/3fc5967b-a276-49ff-bd40-0ec5b0516449" width="200"/>9
+<img src="https://github.com/user-attachments/assets/40e3a8e3-1bbb-49bb-abf0-3d53bd94738b" width="200"/>
+<img src="https://github.com/user-attachments/assets/6b1317c8-d339-455e-b303-e217b16ad5d1" width="200"/>
+<img src="https://github.com/user-attachments/assets/1f556a68-df46-40a7-9dbf-0b4b7833063c" width="200"/>
+<img src="https://github.com/user-attachments/assets/aa2398b0-426d-4d78-93f7-e5bdf898395e" width="200"/>
+<img src="https://github.com/user-attachments/assets/8ebecdf9-207d-4eef-be51-ec502bdac7f9" width="200"/>
+<img src="https://github.com/user-attachments/assets/b077ed1a-685d-45b1-8ae3-17ad04eb799a" width="200"/>
+<img src="https://github.com/user-attachments/assets/3d8e180b-2ff8-440f-974b-5d14a0b9f057" width="200"/>
+<img src="https://github.com/user-attachments/assets/6b507f75-1996-4802-a29e-7802fb8cfd27" width="200"/>
+<img src="https://github.com/user-attachments/assets/3fc5967b-a276-49ff-bd40-0ec5b0516449" width="200"/>
 
 ### Demo
 
