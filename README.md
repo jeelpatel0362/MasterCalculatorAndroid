@@ -31,15 +31,16 @@ making it an indispensable tool for daily life.
 
 ### Pictures of application 
 
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/3a7ddf2c-6ea7-41a0-b0ac-595fe1b97035" width="200"/>
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/36ee1003-9a8d-479b-985c-11265a5fcfa0" width="200"/>
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/a988e62d-6070-4cef-8aa8-2f5fd2f175d5" width="200"/> 
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/e9d2f948-17db-4fd5-8ac2-2ca3ac8a26be" width="200"/>  
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/cb5ae461-95a1-49a8-b2e5-544441e188b7" width="200"/>  
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/e6e8c04b-6958-4396-b6c2-d797006b399c" width="200"/>
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/e9632cfa-88e5-4b01-8f92-de536ead3a51" width="200"/>
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/0ed6813b-5129-41a8-be96-c025387f5fb5" width="200"/>  
-<img src="https://github.com/artichaudhary0/MasterCalculatorAndroid/assets/71622834/761793f3-cdac-42a3-b564-1d7fa611c341" width="200"/> 
+![Home page](https://github.com/user-attachments/assets/8c046a47-ec5b-491b-b2b6-9a74e2d8fc54)
+![Screenshot_20241130_174706](https://github.com/user-attachments/assets/c813c5c2-3ffb-49ab-b77f-438b9e9753bc)
+![Screenshot_20241130_174719](https://github.com/user-attachments/assets/78fd7045-1c49-4f2b-b065-fad7081d0337)
+![Screenshot_20241130_174729](https://github.com/user-attachments/assets/6ca93f06-ba67-4f17-beba-2fc8184e9e9e)
+![Screenshot_20241130_174740](https://github.com/user-attachments/assets/71222760-2ba7-4db0-875f-b1cd8db65363)
+![Screenshot_20241130_174801](https://github.com/user-attachments/assets/9af902e8-cb7e-45f0-b852-1f6747b7317c)
+![Screenshot_20241130_174809](https://github.com/user-attachments/assets/04a80f7b-143c-4068-9c5b-6f2f59077a17)
+![Screenshot_20241130_174821](https://github.com/user-attachments/assets/12cdcbf0-ee56-43b2-88cd-9ba2c387cfa0)
+![Screenshot_20241130_181635](https://github.com/user-attachments/assets/ac87fae1-571d-4c12-b286-5a0cb5fd37c6)
+ 
 
 
 
