@@ -43,6 +43,7 @@ making it an indispensable tool for daily life.
 
 ### Demo
 
+https://github.com/user-attachments/assets/5afeee6b-6412-419b-9f92-e8315c5c3fd4
 
 ## Contribution
 We welcome all contributions. Here's how you can help:
