@@ -41,9 +41,12 @@ making it an indispensable tool for daily life.
 <img src="https://github.com/user-attachments/assets/6b507f75-1996-4802-a29e-7802fb8cfd27" width="200"/>
 <img src="https://github.com/user-attachments/assets/3fc5967b-a276-49ff-bd40-0ec5b0516449" width="200"/>
 
+
 ### Demo
 
+
 https://github.com/user-attachments/assets/5afeee6b-6412-419b-9f92-e8315c5c3fd4
+
 
 ## Contribution
 We welcome all contributions. Here's how you can help:
