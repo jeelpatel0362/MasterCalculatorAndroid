@@ -31,9 +31,7 @@ making it an indispensable tool for daily life.
 
 ### Pictures of application 
 
-
-
-
+<img src="https://github.com/user-attachments/assets/40e3a8e3-1bbb-49bb-abf0-3d53bd94738b" width="200"/>
 
 ### Demo
 
