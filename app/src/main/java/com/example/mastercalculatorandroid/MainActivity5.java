@@ -77,9 +77,9 @@ public class MainActivity5 extends AppCompatActivity {
         else {
 
             double amount1 = Double.parseDouble(amount.getText().toString());
-            double interest1 = Double.parseDouble(priceDiscount.getText().toString());
+            double discount1 = Double.parseDouble(priceDiscount.getText().toString());
 
-            double  a = ((amount1) * (interest1)) / 100;
+            double  a = ((amount1) * (discount1)) / 100;
 
             priceAfterDiscount.setText(String.valueOf((int)(amount1-a)));
             savedPrice.setText(String.valueOf((int) a));
