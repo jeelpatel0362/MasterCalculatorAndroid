@@ -28,7 +28,7 @@ public class MainActivity5 extends AppCompatActivity {
         setContentView(R.layout.activity_main5);
         initBinding();
 
-        //For back Button
+        //back Button
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
